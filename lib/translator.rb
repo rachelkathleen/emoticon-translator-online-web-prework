@@ -24,6 +24,6 @@ end
 
 
 
-def get_english_meaning
-  library = load_library
+def get_english_meaning(file_path, meaning)
+  library = load_library(file_path)
 end
