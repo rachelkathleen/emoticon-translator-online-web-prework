@@ -17,6 +17,8 @@ def get_japanese_emoticon(file_path, emoticon)
   result = library["get_emoticon"][emoticon]
   if result
     result
+    binding.pry
+    
   else
     "Sorry, that emoticon was not found"
   end
